@@ -1,6 +1,20 @@
-for (int i = 0; i <= 10; i++)
+using System;
+
+namespace Project
 {
-    Console.WriteLine(i);
+    public class Project
+    {
+        public static void Main()
+        {
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("52");
+            Console.WriteLine(47);
+        }
+    }
 }
-Console.WriteLine("52");
-Console.WriteLine(47);
+
+
+
